@@ -1,15 +1,17 @@
 <template>
   <div id="app">
-
+    <g2></g2>
   </div>
 </template>
 
 <script>
 
+  import G2 from './components/G2'
+
 export default {
   name: 'App',
   components: {
-
+    G2
   }
 }
 </script>
