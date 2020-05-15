@@ -1,19 +1,19 @@
 <template>
   <div id="app">
-    <g2></g2>
+    <f2></f2>
   </div>
 </template>
 
 <script>
 
-  import G2 from './components/G2'
+  import F2 from './components/F2'
 
-export default {
-  name: 'App',
-  components: {
-    G2
+  export default {
+    name: 'App',
+    components: {
+      F2
+    }
   }
-}
 </script>
 
 <style>
